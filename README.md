@@ -1,4 +1,4 @@
-# vue-cli-app
+# onebay-ui-custom-theme-with-vue-cli
 
 ## Project setup
 ```
@@ -21,4 +21,4 @@ yarn lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [onebay-ui](https://onebay.io/guide/getting-started).

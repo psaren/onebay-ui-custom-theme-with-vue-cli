@@ -1,17 +1,19 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <h1>onebay-ui custom theme with vue-cli</h1>
+  <Button />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
-export default {
+import { defineComponent } from "vue";
+import Button from "./pages/button/index";
+import "onebay-ui/src/style/components/loading.scss"
+export default defineComponent({
   name: "App",
   components: {
-    HelloWorld
+    Button
   }
-};
+});
 </script>
 
 <style>
